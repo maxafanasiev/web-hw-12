@@ -20,5 +20,5 @@ class PhoneNumber(BaseModel):
     @classmethod
     def validate_phone_number(cls, v):
         if not cls.is_valid_phone_number(v):
-            raise ValueError("Invalid phone number")
+            raise ValueError("Invalid phone number.")
         return v

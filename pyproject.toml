@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "web-hw-11"
+name = "web-hw-12"
 version = "0.1.0"
 description = ""
 authors = ["maxafanasiev <80445276+maxafanasiev@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "web_hw_11"}]
+packages = [{include = "web_hw_12"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,6 +16,11 @@ sqlalchemy = "^2.0.20"
 pydantic-extra-types = "^2.0.0"
 alembic = "^1.11.3"
 phonenumbers = "^8.13.18"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+libgravatar = "^1.0.4"
+passlib = "^1.7.4"
+python-multipart = "^0.0.6"
+bcrypt = "^4.0.1"
 
 
 [build-system]

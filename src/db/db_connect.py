@@ -14,7 +14,6 @@ db_name = config.get('DB', 'db_name')
 domain = config.get('DB', 'domain')
 port = config.get('DB', 'port')
 
-# connect to cluster on AtlasDB with connection string
 
 engine = create_engine(f"postgresql+psycopg2://{user}:{password}@{domain}:{port}/{db_name}")
 
